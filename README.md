@@ -13,17 +13,17 @@ The grey boxes are selected for the area in the Perth, totalling 20 square kilom
 ### Step 2: Detect the solar panel
 Crawl the remote sensing images from Google Map (20 layers) and store the images based on the latitude and longitue information. Then, we use the off-the-shelf object detection framework to detect the solar panel for each images. For more details, please refer to this [repo](https://github.com/Robert-Mar/Solar-Panel-Rotator). The actual latitude and longitude are inverted based on the relative position of the electric panel in the image. The final detected targets are displayed in the image below.
 
-<img width=530 height=300 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope_panel_v2.jpg">
+<img width=430 height=300 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope_panel_v2.jpg">
 
 ### Step 3: Cluster the centers with K-Means
 In order to find the potential grid construction address based on customer density and construction distance, we use [K-Means](https://en.wikipedia.org/wiki/K-means_clustering) calculate the feature centers of K clusters. K is determined by the number of grid that company plans to build. Specifically, we see each solar panel in the map as a point and then store them as a matrix, with their distribution remaining constant. As the image shown below, the points with different colours belong to different grid ranges.
 
-<img width=500 height=400 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/kmeans.png">
+<img width=370 height=350 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/kmeans.png">
 
 ### Step 4: Calculate the potential grid address
 After obtaining the cluster centers, we convert the relative position of the cluster center to the real position in the world coordinate system. We have marked potential grid construction sites using different icons, as shown below.
 
-<img width=500 height=400 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/grid_kmeans.png">
+<img width=370 height=350 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/grid_kmeans.png">
 
 ## Relative Project
 [Solar-Panel-Rotator](https://github.com/Robert-Mar/Solar-Panel-Rotator)
