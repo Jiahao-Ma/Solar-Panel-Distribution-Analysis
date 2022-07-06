@@ -1,7 +1,7 @@
 # Solar Panel Distribution Analysis
 This repo documents the technical thinking behind the recommended points for the construction of the grid in the **[Perth](https://en.wikipedia.org/wiki/Perth)** area by solar panel distribution. 😎 This project mainly documents the basic source code and the data involved in the project will not be disclosed.
  
- <img width=1120 height=310 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/solar_list.jpg">
+ <img width=1120 height=210 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/solar_list.jpg">
  
 ## Steps of Analysis
 This section mainly documents how to make recommendation for the construction of grid based on the distribution of custumer density in selected area. There are four main steps, including:
