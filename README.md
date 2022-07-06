@@ -6,4 +6,4 @@ This section mainly documents how to make recommendation for the construction of
 ### Define the targe range
 
 
-<img width=340 height=225 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope_panel_v2.jpg">
+<img width=680 height=550 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope_panel_v2.jpg">
