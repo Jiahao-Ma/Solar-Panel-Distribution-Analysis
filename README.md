@@ -7,7 +7,8 @@ This repo documents the technical thinking behind the recommended points for the
 This section mainly documents how to make recommendation for the construction of grid based on the distribution of custumer density in selected area. There are four main steps, including:
 ### Step 1: Define the targe range.
 The grey boxes are selected for the area in the Perth, totalling 20 square kilometres. 
-<img width=420 height=390 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope.png">
+
+<img width=370 height=350 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope.png">
 
 ### Step 2: Detect the solar panel
 Crawl the remote sensing images from Google Map (20 layers) and store the images based on the latitude and longitue information. Then, we use the off-the-shelf object detection framework to detect the solar panel for each images. For more details, please refer to this [repo](https://github.com/Robert-Mar/Solar-Panel-Rotator). The actual latitude and longitude are inverted based on the relative position of the electric panel in the image. The final detected targets are displayed in the image below.
