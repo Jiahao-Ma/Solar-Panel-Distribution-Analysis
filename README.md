@@ -24,3 +24,6 @@ In order to find the potential grid construction address based on customer densi
 After obtaining the cluster centers, we convert the relative position of the cluster center to the real position in the world coordinate system. We have marked potential grid construction sites using different icons, as shown below.
 
 <img width=500 height=400 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/grid_kmeans.png">
+
+## Relative Project
+[Solar-Panel-Rotator](https://github.com/Robert-Mar/Solar-Panel-Rotator)
