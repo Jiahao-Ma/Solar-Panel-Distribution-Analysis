@@ -6,4 +6,4 @@ This repo documents the technical thinking behind the recommended points for the
 ### Define the targe range
 
 
-<img width=450 height=450 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope_panel_v2.jpg">
+<img width=340 height=225 src="https://github.com/Robert-Mar/Solar-Panel-Distribution-Analysis/blob/main/images/scope_panel_v2.jpg">
